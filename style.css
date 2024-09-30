@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(217, 228, 210);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-left: 5px;
+    width: 183px;
+}
+ul {
+    list-style: none;
+}
+h1#titulo {
+    background-color: rgb(184, 205, 181);
+}
+h2#sub-titulo {
+    background-color: rgb(184, 205, 181);
+    text-align: center;
+}
+form#formAdicionar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+form#formAtualizar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}

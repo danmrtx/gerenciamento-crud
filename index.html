@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Gerenciamento de Funcionários</h1>
+
+    <h2 id="sub-titulo">Adicionar Funcionário</h2>
+    <form id="formAdicionar">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="cargo" placeholder="Cargo" required>
+        <input type="number" id="salario" placeholder="Salário" required>
+        <button type="submit">Adicionar Funcionário</button>
+    </form>
+
+    <h2 id="sub-titulo">Funcionários Cadastrados</h2>
+    <ul id="listaFuncionarios"></ul>
+
+    <h2 id="sub-titulo">Atualizar Funcionário</h2>
+    <form id="formAtualizar">
+        <input type="number" id="idAtualizar" placeholder="ID do Funcionário" required>
+        <input type="text" id="nomeAtualizado" placeholder="Novo Nome">
+        <input type="text" id="cargoAtualizado" placeholder="Novo Cargo">
+        <input type="number" id="salarioAtualizado" placeholder="Novo Salário">
+        <button type="submit">Atualizar Funcionário</button>
+    </form>
+
+    <h2 id="sub-titulo">Excluir Funcionário</h2>
+    <form id="formExcluir">
+        <input type="number" id="idExcluir" placeholder="ID do Funcionário" required>
+        <button type="submit">Excluir Funcionário</button>
+    </form>
+    <script src="api.js"></script>
+</body>
+</html>
